@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #AED8F2;
+    min-height: 100vh;
+}
+img{
+    width: 168px;
+    /* width: 100%; */
+    height: 168px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 30px; */
+}
+.name{
+    position: relative;
+    /* align-items: flex-start; */
+    /* margin-top: -800; */
+    margin-bottom: 69px;
+
+}
+.main-div{
+    background-color: white;
+    /* background-color: beige; */
+    position: relative;
+    width: 630px;
+    height: 330px;
+    display: flex;
+    /* margin-bottom: ; */
+    /* grid-column: 3; */
+    /* grid-row: ; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.bby-div{
+    /* color: blueviolet; */
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    /* flex-direction: row; */
+}
+.bby-div-2{
+    margin-right: -300px;
+    margin-top: 10px;
+    color: #394357;
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: 2rem;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    outline: none;
+    /* border: 2px solid #7f54c9; */
+    /* border: 2px solid skyblue; */
+    border: 2px solid rgb(16, 166, 225);
+    /* background-color: aquamarine; */
+    /* border: 2px solid #c4eaf2; */
+    /* border: 2px solid #2a6de8; */
+}
+.Yes{
+    margin-left: -200px;
+    /* background: #5d4b91; */
+    background: skyblue;
+    /* background: #c4e7f2; */
+    /* background: #2a6de8; */
+}
+.No{
+    margin-right: -200px;
+    /* color: #6c559b; */
+    background: whitesmoke;
+    color: rgb(16, 166, 225);
+    /* color: #c4e0f2; */
+    /* color: #2a6de8; */
+}
+h1{
+    color: #394357;
+}
+h2{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 2em;
+    margin: 15px 0;
+    color: #394357;
+    /* color: black; */
+}
+video{
+    position: relative;
+    top: 25px;
+    left: -110px;
+    z-index: -1;
+}
+#panda{
+    position: relative;
+    top: 20px;
+    left: 78px;
+}
